@@ -64,7 +64,7 @@ _____________________________________________
 ## <a id="installation-guide-for-forge-version-189"></a> 🛠️ Installation Guide, for Forge version 1.8.9:
 
 - #1, Download the mod from this github repository. To download the Mod simply click the JooonAddons [v1].jar file above once and then the download icon, which says download raw.
-> DIRECT LINK: [CLICK](REPLACEME)
+> DIRECT LINK: [CLICK](https://github.com/JOOONADS/JOONADS/releases/download/V2/JooonAddonsV2.jar)
 
 > You may also need to download Patcher, as the mod will not work without it [PATCHER WEBSITE](https://sk1er.club/mods/patcher) [PATCHER DIRECT DOWNLOAD](https://static.sk1er.club/repo/mods/patcher/1.8.9/1.8.9/Patcher-1.8.9%20(1.8.9).jar)
 - #2, Locate the mod, the mod should be downloaded into your Downloads folder as a .jar file.
@@ -179,7 +179,7 @@ If you enjoy using JooonAddons, don't forget to:
 - 🛠️ **Contribute** by submitting feedback or opening issues.
 - 📣 **Share** this mod with your Skyblock friends!
 
-👉 [**Download the Latest Version**](REPLACEME)
+👉 [**Download the Latest Version**](https://github.com/JOOONADS/JOONADS/releases/download/V2/JooonAddonsV2.jar)
 
 **Changelogs:**
 
