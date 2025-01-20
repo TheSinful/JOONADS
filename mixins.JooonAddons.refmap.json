@@ -1,0 +1,110 @@
+{
+  "mappings": {
+    "me/jooon/JooonAddons/mixin/MixinRenderManager": {
+      "doRenderEntity(Lnet/minecraft/entity/Entity;DDDFFZ)Z": "Lnet/minecraft/client/renderer/entity/RenderManager;func_147939_a(Lnet/minecraft/entity/Entity;DDDFFZ)Z"
+    },
+    "me/jooon/JooonAddons/mixin/MixinPlayerAttackEntity": {
+      "attackEntity": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78764_a(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)V"
+    },
+    "me/jooon/JooonAddons/mixin/MixinGuiScreen": {
+      "sendChatMessage(Ljava/lang/String;Z)V": "Lnet/minecraft/client/gui/GuiScreen;func_175281_b(Ljava/lang/String;Z)V"
+    },
+    "me/jooon/JooonAddons/mixin/MixinEntityFishHook": {
+      "onUpdate": "Lnet/minecraft/entity/projectile/EntityFishHook;func_70071_h_()V"
+    },
+    "me/jooon/JooonAddons/mixin/MixinBlockCocoa": {
+      "getCollisionBoundingBox": "Lnet/minecraft/block/BlockCocoa;func_180640_a(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/AxisAlignedBB;",
+      "setBlockBoundsBasedOnState": "Lnet/minecraft/block/BlockCocoa;func_180654_a(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/BlockPos;)V"
+    },
+    "me/jooon/JooonAddons/mixin/MixinNetworkManager": {
+      "channelRead0*": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    },
+    "me/jooon/JooonAddons/mixin/MixinEntityLivingBase": {
+      "isChild": "Lnet/minecraft/entity/EntityLivingBase;func_70631_g_()Z"
+    },
+    "me/jooon/JooonAddons/mixin/IMixinRendererLivingEntity": {
+      "mainModel": "field_77045_g:Lnet/minecraft/client/model/ModelBase;",
+      "layerRenderers": "field_177097_h:Ljava/util/List;"
+    },
+    "me/jooon/JooonAddons/mixin/IMixinMinecraft": {
+      "timer": "field_71428_T:Lnet/minecraft/util/Timer;"
+    },
+    "me/jooon/JooonAddons/mixin/MixinRenderItem": {
+      "renderItem(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/resources/model/IBakedModel;)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180454_a(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/resources/model/IBakedModel;)V",
+      "Lnet/minecraft/client/renderer/entity/RenderItem;renderModel(Lnet/minecraft/client/resources/model/IBakedModel;Lnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_175036_a(Lnet/minecraft/client/resources/model/IBakedModel;Lnet/minecraft/item/ItemStack;)V"
+    },
+    "me/jooon/JooonAddons/mixin/GuiMainMenuMixin": {
+      "initGui": "Lnet/minecraft/client/gui/GuiMainMenu;func_73866_w_()V"
+    },
+    "me/jooon/JooonAddons/mixin/MixinNetHandlerPlayClient": {
+      "addToSendQueue": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147297_a(Lnet/minecraft/network/Packet;)V"
+    },
+    "me/jooon/JooonAddons/mixin/IMixinRenderManager": {
+      "renderPosX": "field_78725_b:D",
+      "renderPosY": "field_78726_c:D",
+      "renderPosZ": "field_78723_d:D"
+    },
+    "me/jooon/JooonAddons/mixin/MixinLayerCape": {
+      "doRenderLayer(Lnet/minecraft/client/entity/AbstractClientPlayer;FFFFFFF)V": "Lnet/minecraft/client/renderer/entity/layers/LayerCape;func_177141_a(Lnet/minecraft/client/entity/AbstractClientPlayer;FFFFFFF)V",
+      "Lnet/minecraft/client/renderer/GlStateManager;translate(FFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179109_b(FFF)V"
+    },
+    "me/jooon/JooonAddons/mixin/MixinFontRenderer": {
+      "drawString(Ljava/lang/String;FFIZ)I": "Lnet/minecraft/client/gui/FontRenderer;func_175065_a(Ljava/lang/String;FFIZ)I"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/jooon/JooonAddons/mixin/MixinRenderManager": {
+        "doRenderEntity(Lnet/minecraft/entity/Entity;DDDFFZ)Z": "Lnet/minecraft/client/renderer/entity/RenderManager;func_147939_a(Lnet/minecraft/entity/Entity;DDDFFZ)Z"
+      },
+      "me/jooon/JooonAddons/mixin/MixinPlayerAttackEntity": {
+        "attackEntity": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78764_a(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)V"
+      },
+      "me/jooon/JooonAddons/mixin/MixinGuiScreen": {
+        "sendChatMessage(Ljava/lang/String;Z)V": "Lnet/minecraft/client/gui/GuiScreen;func_175281_b(Ljava/lang/String;Z)V"
+      },
+      "me/jooon/JooonAddons/mixin/MixinEntityFishHook": {
+        "onUpdate": "Lnet/minecraft/entity/projectile/EntityFishHook;func_70071_h_()V"
+      },
+      "me/jooon/JooonAddons/mixin/MixinBlockCocoa": {
+        "getCollisionBoundingBox": "Lnet/minecraft/block/BlockCocoa;func_180640_a(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/AxisAlignedBB;",
+        "setBlockBoundsBasedOnState": "Lnet/minecraft/block/BlockCocoa;func_180654_a(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/BlockPos;)V"
+      },
+      "me/jooon/JooonAddons/mixin/MixinNetworkManager": {
+        "channelRead0*": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      },
+      "me/jooon/JooonAddons/mixin/MixinEntityLivingBase": {
+        "isChild": "Lnet/minecraft/entity/EntityLivingBase;func_70631_g_()Z"
+      },
+      "me/jooon/JooonAddons/mixin/IMixinRendererLivingEntity": {
+        "mainModel": "field_77045_g:Lnet/minecraft/client/model/ModelBase;",
+        "layerRenderers": "field_177097_h:Ljava/util/List;"
+      },
+      "me/jooon/JooonAddons/mixin/IMixinMinecraft": {
+        "timer": "field_71428_T:Lnet/minecraft/util/Timer;"
+      },
+      "me/jooon/JooonAddons/mixin/MixinRenderItem": {
+        "renderItem(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/resources/model/IBakedModel;)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_180454_a(Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/resources/model/IBakedModel;)V",
+        "Lnet/minecraft/client/renderer/entity/RenderItem;renderModel(Lnet/minecraft/client/resources/model/IBakedModel;Lnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/client/renderer/entity/RenderItem;func_175036_a(Lnet/minecraft/client/resources/model/IBakedModel;Lnet/minecraft/item/ItemStack;)V"
+      },
+      "me/jooon/JooonAddons/mixin/GuiMainMenuMixin": {
+        "initGui": "Lnet/minecraft/client/gui/GuiMainMenu;func_73866_w_()V"
+      },
+      "me/jooon/JooonAddons/mixin/MixinNetHandlerPlayClient": {
+        "addToSendQueue": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147297_a(Lnet/minecraft/network/Packet;)V"
+      },
+      "me/jooon/JooonAddons/mixin/IMixinRenderManager": {
+        "renderPosX": "field_78725_b:D",
+        "renderPosY": "field_78726_c:D",
+        "renderPosZ": "field_78723_d:D"
+      },
+      "me/jooon/JooonAddons/mixin/MixinLayerCape": {
+        "doRenderLayer(Lnet/minecraft/client/entity/AbstractClientPlayer;FFFFFFF)V": "Lnet/minecraft/client/renderer/entity/layers/LayerCape;func_177141_a(Lnet/minecraft/client/entity/AbstractClientPlayer;FFFFFFF)V",
+        "Lnet/minecraft/client/renderer/GlStateManager;translate(FFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179109_b(FFF)V"
+      },
+      "me/jooon/JooonAddons/mixin/MixinFontRenderer": {
+        "drawString(Ljava/lang/String;FFIZ)I": "Lnet/minecraft/client/gui/FontRenderer;func_175065_a(Ljava/lang/String;FFIZ)I"
+      }
+    }
+  }
+}

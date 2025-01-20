@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "me.jooon.Seecreter.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"refmap": "mixins.secreter.refmap.json",
+	"client": [
+		"MixinModList"
+	],
+	"server": [],
+	"mixins": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,16 @@
+[
+  {
+	"modid": "jooooonaddons",
+	"name": "Jooon Addons",
+	"description": "Hypixel QOL Mod",
+	"version": "3.0",
+	"mcversion": "1.8.9",
+	"url": "https://github.com/JooonAddons/JooonAddons",
+	"updateUrl": "https://github.com/JooonAddons/JooonAddons",
+	"authorList": ["Jooonlol"],
+	"credits": "",
+	"logoFile": "",
+	"screenshots": [],
+	"dependencies": []
+  }
+]

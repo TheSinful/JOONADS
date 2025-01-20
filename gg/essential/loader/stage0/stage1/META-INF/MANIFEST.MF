@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Name: gg/essential/loader/stage1/
+Implementation-Version: 5
+

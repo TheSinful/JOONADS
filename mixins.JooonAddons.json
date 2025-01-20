@@ -1,0 +1,27 @@
+{
+  "package": "me.jooon.JooonAddons.mixin",
+  "refmap": "mixins.JooonAddons.refmap.json",
+  "minVersion": "0.7",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinBlockCocoa",
+    "MixinEntityFishHook",
+    "MixinEntityLivingBase",
+    "MixinEntityPlayer",
+    "MixinGuiScreen",
+    "MixinModList",
+    "MixinNetHandlerPlayClient",
+    "MixinNetworkManager",
+    "MixinPlayerAttackEntity"
+  ],
+  "client": [
+    "GuiMainMenuMixin",
+    "IMixinMinecraft",
+    "IMixinRendererLivingEntity",
+    "IMixinRenderManager",
+    "MixinFontRenderer",
+    "MixinLayerCape",
+    "MixinRenderItem",
+    "MixinRenderManager"
+  ]
+}
